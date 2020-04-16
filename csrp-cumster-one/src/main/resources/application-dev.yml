@@ -1,0 +1,8 @@
+# Eureka注册中心配置
+spring:
+ application:
+  name: csrp-cumster
+ cloud:
+  zookeeper:
+    # 注册到zookeeper地址
+   connect-string: localhost:2181
